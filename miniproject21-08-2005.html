@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Basic Contact Form</title>
 </head>
-<body bgcolor="#f0f8ff">
+<body bgcolor="red">
     <h1 style ="text-align:center">Job Application Form</h1>
-   <div style="border: 2px solid blue; padding: 20px; border-radius: 5px; background-color: rgb(228, 244, 250); text-align: center;"><nav>
+    <h2 style ="text-align:center">Personal Information</h2>
+   <div style="border: 2px solid rgb(145, 53, 10); padding: 20px; border-radius: 5px; background-color: rgb(228, 244, 250); text-align: center;"><nav>
     <form action="#" method="post">
         <ul></li><label for="first-name">First Name:</label><br>
         <input type="text" style="height: 20px;" id="first-name" name="first-name" required><br>
@@ -25,8 +26,8 @@
         <input type="submit" value="Submit" style="align-self: auto;">
     </form></nav></div>
 
-
-    <div style="border: 2px solid blue; padding: 20px; border-radius: 5px; background-color: rgb(228, 244, 250); text-align: center;"><nav>
+    <h2 style ="text-align:center">Job Related Information</h2>
+    <div style="border: 2px solid rgb(64, 187, 140); padding: 20px; border-radius: 5px; background-color: rgb(228, 244, 250); text-align: center;"><nav>
     <form action="#" method="post">
         <ul><label for="Position">Position Applied For:</label><br>
         <select id="Position" name="Position">
@@ -34,17 +35,24 @@
             <option value="Software Engineer">Software Engineer</option>
             <option value="Data Scientist">Data Scientist</option>
             <option value="Product Manager">Product Manager</option>
-            <option value="UX Designer">UX Designer</option>
+            <option value="UX Designer">UX Designer</option></select><br><br
 
-        <ul><label for="last-name" style="text-align: center;">Last Name:</label><br>
+        <ul><label for="last-name" style="text-align: center;">Salary Expectation</label><br>
         <input type="text" id="last-name" name="last-name" required><br><br></ul>
 
-        <ul><label for="email">Email:</label><br>
+        <ul><label for="email">College Email:</label><br>
         <input type="email" id="email" name="email" required><br><br></ul>
 
-        <ul><label for="phone">Phone Number:</label><br>
-        <input type="tel" id="phone" name="phone" required><br><br></ul>
+        <ul><label for="experience" style="text-align: center;">Experience in years</label><br>
+        <input type="text" id="experience" name="experience" required><br><br></ul>
 
+        <ul><label for="Position">Education</label><br>
+        <select id="Position" name="Position">
+            <option value="---Select---">---Select---</option>
+            <option value="Software Engineer">Graduated</option>
+            <option value="Data Scientist">Post Graduated</option>
+            <option value="Product Manager">Doctrate</option><br><br></ul>
+            
         <input type="submit" value="Submit" style="align-self: auto;">
     </form></nav></div>
 </body>
