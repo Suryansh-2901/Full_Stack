@@ -26,9 +26,26 @@ body{
 header{
     background-color: rgba(89, 72, 165, 0.7);
     padding: 15px;
+    background-image: image-set(url(IMG_20250125_202245_212.jpg))
 }
 img{
     height: 500px;
     width: 400px;
     border-radius: 10px;
+}
+nav a:hover{
+    text-decoration: underline;
+    color: red;
+}
+#about p{
+    text-transform: capitalize;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 500;
+}
+footer{
+    text-align: center;
+    font-size: 14px;
+    background-color: black;
+    color: aliceblue;
 }
