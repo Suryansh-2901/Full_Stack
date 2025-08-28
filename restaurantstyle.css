@@ -28,7 +28,7 @@ h1{
 }
 header{
     background-color: yellowgreen;
-    height: 10vh;
+    padding: 15px;
 }
 body{
     margin: 140px;
@@ -37,10 +37,11 @@ body{
     margin-left: 132px;
     background-color: bisque;
 }
-h2{
-    color: rgb(253, 249, 249);
-}
-h3{
-    color: chocolate;
-}
 
+h3{
+    color: rgb(184, 173, 164);
+}
+border{
+    padding: 50px;
+    background-image: image-set("pizza.png")
+}
