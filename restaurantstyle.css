@@ -1,0 +1,46 @@
+button{
+    height: 100px;
+    width: 100px;
+    background-color: beige;
+    border-radius: 25px;
+}
+h1{
+    text-align: center;
+    color: rgb(14, 3, 3);
+    text-decoration: wavy;
+}
+
+.sidebar{
+    width: 100px;
+    background: black;
+    color: white;
+    height: 100vh;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.sidebar a{
+    display: block;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+header{
+    background-color: yellowgreen;
+    height: 10vh;
+}
+body{
+    margin: 140px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 132px;
+    background-color: bisque;
+}
+h2{
+    color: rgb(253, 249, 249);
+}
+h3{
+    color: chocolate;
+}
+
